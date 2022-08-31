@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UFT-8">
+    <meta http-equiv="X.UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Introduccion a CSS</title>
+    <link href="css/estilos.css" rel="stylesheet" />
+    <style>
+        hl{
+           color: #e63946;
+           text-align: center;
+        }
+        .caja{
+            padding: 10px;
+            color: white;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            margin: 5px auto;
+            font-size: left;
+        } 
+        .rojo{
+            background-color: crimson;
+        }
+        .rosa{
+            background-color: deeppink;
+        }
+        .rgb{
+            background-color: rgb(131,56,236);
+        }
+        .rgba{
+            background-color: rgba(131,56,236, .5);
+        }
+        .hexadecimal{
+            background-color: #0091ad;
+        }
+        .hexa_transparencial{
+            background-color: #0090ad88;
+        }
+        .hsl{
+            background-color: hsl(195, 100%, 50%);
+        }
+        .hsla{
+            background-color: hsla(0, 191, 255, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <hl>Colores en CSS</hl>
+    <div class="caja rojo">
+        <p>Color por nombre HTML</p>
+    </div>
+    <div class="caja rosa">
+        <p>Color por nombre HTML</p>
+    </div>
+    <div class="caja rgb">
+        <p>Color por Codigo RGB (red, green, blue)</p>
+    </div>
+    <div class="caja rgba">
+        <p>Color por Codigo RGBA (red, green, blue, alfa)</p>
+    </div>
+    <div class="caja hexadecimal">
+        <p>Color por Codigo hexadecimal</p>
+    </div>
+    <div class="caja hexa:transparencia">
+        <p>Color por Codigo Hexadecimal con transparencia</p>
+    </div>
+    <div class="caja hsl">
+        <p>Color por codigo HSL (Hue, Saturation, Lightness)</p>
+    </div>
+    <div class="caja hsla">
+        <p>Color por codigo HSLA (con transparencia)</p>
+    </div>
+</body>
+</html>
